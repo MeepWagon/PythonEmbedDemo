@@ -1,0 +1,1 @@
+/usr/local/bin/c++ CMakeFiles/job_project.dir/src/main.cpp.o -o job_project  /usr/local/lib64/libpython3.10.so 

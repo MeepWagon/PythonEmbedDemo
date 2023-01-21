@@ -1,0 +1,397 @@
+The system is: Linux - 4.14.295-19576-gcc978b21fbbb - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/chronos/user/Projects/job_project/CMakeFiles/3.24.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/chronos/user/Projects/job_project/CMakeFiles/3.24.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/chronos/user/Projects/job_project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/make -f Makefile cmTC_5aa03/fast && /usr/local/bin/make  -f CMakeFiles/cmTC_5aa03.dir/build.make CMakeFiles/cmTC_5aa03.dir/build
+make[1]: Entering directory '/home/chronos/user/Projects/job_project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/cc   -v -o CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/cc
+Target: x86_64-cros-linux-gnu
+Configured with: ../configure --prefix=/usr/local --libdir=/usr/local/lib64 --mandir=/usr/local/share/man --build=x86_64-cros-linux-gnu --host=x86_64-cros-linux-gnu --target=x86_64-cros-linux-gnu --program-prefix= --program-suffix= --disable-bootstrap --disable-install-libiberty --disable-libmpx --disable-libssp --disable-multilib --disable-werror --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-host-shared --enable-lto --enable-plugin --enable-shared --enable-symvers --enable-static --enable-threads=posix --with-gcc-major-version-only --with-gmp --with-isl --with-mpc --with-mpfr --with-pic --with-system-libunwind --with-system-zlib --with-arch-64=x86-64 --with-native-system-header-dir=/usr/local/include --enable-languages=c,c++,jit,objc,fortran --program-suffix=-12
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20221102 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5aa03.dir/'
+ /usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/cc1 -quiet -v /usr/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5aa03.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /usr/local/tmp/ccrf14Js.s
+GNU C17 (GCC) version 12.2.1 20221102 (x86_64-cros-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0-p11, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../x86_64-cros-linux-gnu/include"
+ignoring duplicate directory "/usr/local/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include
+ /usr/local/include
+ /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include-fixed
+End of search list.
+GNU C17 (GCC) version 12.2.1 20221102 (x86_64-cros-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0-p11, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 63b7732b91907d497040aa0abd602191
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5aa03.dir/'
+ as -v --64 -o CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o /usr/local/tmp/ccrf14Js.s
+GNU assembler version 2.39 (x86_64-cros-linux-gnu) using BFD version (Chromebrew) 2.39
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/
+LIBRARY_PATH=/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_5aa03
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aa03.dir/link.txt --verbose=1
+/usr/local/bin/cc  -v CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o -o cmTC_5aa03 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/cc
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/lto-wrapper
+Target: x86_64-cros-linux-gnu
+Configured with: ../configure --prefix=/usr/local --libdir=/usr/local/lib64 --mandir=/usr/local/share/man --build=x86_64-cros-linux-gnu --host=x86_64-cros-linux-gnu --target=x86_64-cros-linux-gnu --program-prefix= --program-suffix= --disable-bootstrap --disable-install-libiberty --disable-libmpx --disable-libssp --disable-multilib --disable-werror --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-host-shared --enable-lto --enable-plugin --enable-shared --enable-symvers --enable-static --enable-threads=posix --with-gcc-major-version-only --with-gmp --with-isl --with-mpc --with-mpfr --with-pic --with-system-libunwind --with-system-zlib --with-arch-64=x86-64 --with-native-system-header-dir=/usr/local/include --enable-languages=c,c++,jit,objc,fortran --program-suffix=-12
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20221102 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/
+LIBRARY_PATH=/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5aa03' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5aa03.'
+ /usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/collect2 -plugin /usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/usr/local/tmp/ccZSkn8g.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5aa03 /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/Scrt1.o /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crti.o /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtbeginS.o -L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12 -L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../.. CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtendS.o /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5aa03' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5aa03.'
+make[1]: Leaving directory '/home/chronos/user/Projects/job_project/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include-fixed]
+  end of search list found
+  collapse include dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include] ==> [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include-fixed] ==> [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include-fixed]
+  implicit include dirs: [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include;/usr/local/include;/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include-fixed]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/chronos/user/Projects/job_project/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/make -f Makefile cmTC_5aa03/fast && /usr/local/bin/make  -f CMakeFiles/cmTC_5aa03.dir/build.make CMakeFiles/cmTC_5aa03.dir/build]
+  ignore line: [make[1]: Entering directory '/home/chronos/user/Projects/job_project/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/cc   -v -o CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/cc]
+  ignore line: [Target: x86_64-cros-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/usr/local --libdir=/usr/local/lib64 --mandir=/usr/local/share/man --build=x86_64-cros-linux-gnu --host=x86_64-cros-linux-gnu --target=x86_64-cros-linux-gnu --program-prefix= --program-suffix= --disable-bootstrap --disable-install-libiberty --disable-libmpx --disable-libssp --disable-multilib --disable-werror --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-host-shared --enable-lto --enable-plugin --enable-shared --enable-symvers --enable-static --enable-threads=posix --with-gcc-major-version-only --with-gmp --with-isl --with-mpc --with-mpfr --with-pic --with-system-libunwind --with-system-zlib --with-arch-64=x86-64 --with-native-system-header-dir=/usr/local/include --enable-languages=c c++ jit objc fortran --program-suffix=-12]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20221102 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5aa03.dir/']
+  ignore line: [ /usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/cc1 -quiet -v /usr/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5aa03.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /usr/local/tmp/ccrf14Js.s]
+  ignore line: [GNU C17 (GCC) version 12.2.1 20221102 (x86_64-cros-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0-p11  MPC version 1.2.1  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../x86_64-cros-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 12.2.1 20221102 (x86_64-cros-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0-p11  MPC version 1.2.1  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 63b7732b91907d497040aa0abd602191]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5aa03.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o /usr/local/tmp/ccrf14Js.s]
+  ignore line: [GNU assembler version 2.39 (x86_64-cros-linux-gnu) using BFD version (Chromebrew) 2.39]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_5aa03]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aa03.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/cc  -v CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o -o cmTC_5aa03 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/lto-wrapper]
+  ignore line: [Target: x86_64-cros-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/usr/local --libdir=/usr/local/lib64 --mandir=/usr/local/share/man --build=x86_64-cros-linux-gnu --host=x86_64-cros-linux-gnu --target=x86_64-cros-linux-gnu --program-prefix= --program-suffix= --disable-bootstrap --disable-install-libiberty --disable-libmpx --disable-libssp --disable-multilib --disable-werror --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-host-shared --enable-lto --enable-plugin --enable-shared --enable-symvers --enable-static --enable-threads=posix --with-gcc-major-version-only --with-gmp --with-isl --with-mpc --with-mpfr --with-pic --with-system-libunwind --with-system-zlib --with-arch-64=x86-64 --with-native-system-header-dir=/usr/local/include --enable-languages=c c++ jit objc fortran --program-suffix=-12]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20221102 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5aa03' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5aa03.']
+  link line: [ /usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/collect2 -plugin /usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/usr/local/tmp/ccZSkn8g.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5aa03 /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/Scrt1.o /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crti.o /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtbeginS.o -L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12 -L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../.. CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtendS.o /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crtn.o]
+    arg [/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/usr/local/tmp/ccZSkn8g.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5aa03] ==> ignore
+    arg [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/Scrt1.o] ==> obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/Scrt1.o]
+    arg [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crti.o] ==> obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crti.o]
+    arg [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtbeginS.o] ==> obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12] ==> dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12]
+    arg [-L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64] ==> dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../..] ==> dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_5aa03.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtendS.o] ==> obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtendS.o]
+    arg [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crtn.o] ==> obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crtn.o]
+  collapse obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/Scrt1.o] ==> [/usr/local/lib64/Scrt1.o]
+  collapse obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crti.o] ==> [/usr/local/lib64/crti.o]
+  collapse obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crtn.o] ==> [/usr/local/lib64/crtn.o]
+  collapse library dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12] ==> [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12]
+  collapse library dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64] ==> [/usr/local/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../..] ==> [/usr/local/lib64]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/local/lib64/Scrt1.o;/usr/local/lib64/crti.o;/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtbeginS.o;/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtendS.o;/usr/local/lib64/crtn.o]
+  implicit dirs: [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12;/usr/local/lib64;/lib64;/usr/lib64]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/chronos/user/Projects/job_project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/make -f Makefile cmTC_349ee/fast && /usr/local/bin/make  -f CMakeFiles/cmTC_349ee.dir/build.make CMakeFiles/cmTC_349ee.dir/build
+make[1]: Entering directory '/home/chronos/user/Projects/job_project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/c++   -v -o CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+Target: x86_64-cros-linux-gnu
+Configured with: ../configure --prefix=/usr/local --libdir=/usr/local/lib64 --mandir=/usr/local/share/man --build=x86_64-cros-linux-gnu --host=x86_64-cros-linux-gnu --target=x86_64-cros-linux-gnu --program-prefix= --program-suffix= --disable-bootstrap --disable-install-libiberty --disable-libmpx --disable-libssp --disable-multilib --disable-werror --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-host-shared --enable-lto --enable-plugin --enable-shared --enable-symvers --enable-static --enable-threads=posix --with-gcc-major-version-only --with-gmp --with-isl --with-mpc --with-mpfr --with-pic --with-system-libunwind --with-system-zlib --with-arch-64=x86-64 --with-native-system-header-dir=/usr/local/include --enable-languages=c,c++,jit,objc,fortran --program-suffix=-12
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20221102 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_349ee.dir/'
+ /usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/cc1plus -quiet -v -D_GNU_SOURCE /usr/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_349ee.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /usr/local/tmp/ccPPGopN.s
+GNU C++17 (GCC) version 12.2.1 20221102 (x86_64-cros-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0-p11, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../x86_64-cros-linux-gnu/include"
+ignoring duplicate directory "/usr/local/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../include/c++/12
+ /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../include/c++/12/x86_64-cros-linux-gnu
+ /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include
+ /usr/local/include
+ /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include-fixed
+End of search list.
+GNU C++17 (GCC) version 12.2.1 20221102 (x86_64-cros-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0-p11, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 84b8d671da95e5541dd5e61e5edf1cc9
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_349ee.dir/'
+ as -v --64 -o CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o /usr/local/tmp/ccPPGopN.s
+GNU assembler version 2.39 (x86_64-cros-linux-gnu) using BFD version (Chromebrew) 2.39
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/
+LIBRARY_PATH=/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_349ee
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_349ee.dir/link.txt --verbose=1
+/usr/local/bin/c++  -v CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_349ee 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/lto-wrapper
+Target: x86_64-cros-linux-gnu
+Configured with: ../configure --prefix=/usr/local --libdir=/usr/local/lib64 --mandir=/usr/local/share/man --build=x86_64-cros-linux-gnu --host=x86_64-cros-linux-gnu --target=x86_64-cros-linux-gnu --program-prefix= --program-suffix= --disable-bootstrap --disable-install-libiberty --disable-libmpx --disable-libssp --disable-multilib --disable-werror --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-host-shared --enable-lto --enable-plugin --enable-shared --enable-symvers --enable-static --enable-threads=posix --with-gcc-major-version-only --with-gmp --with-isl --with-mpc --with-mpfr --with-pic --with-system-libunwind --with-system-zlib --with-arch-64=x86-64 --with-native-system-header-dir=/usr/local/include --enable-languages=c,c++,jit,objc,fortran --program-suffix=-12
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20221102 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/
+LIBRARY_PATH=/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_349ee' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_349ee.'
+ /usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/collect2 -plugin /usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/usr/local/tmp/cco7rRQv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_349ee /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/Scrt1.o /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crti.o /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtbeginS.o -L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12 -L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../.. CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtendS.o /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_349ee' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_349ee.'
+make[1]: Leaving directory '/home/chronos/user/Projects/job_project/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../include/c++/12]
+    add: [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../include/c++/12/x86_64-cros-linux-gnu]
+    add: [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../include/c++/12/backward]
+    add: [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include-fixed]
+  end of search list found
+  collapse include dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../include/c++/12] ==> [/usr/local/include/c++/12]
+  collapse include dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../include/c++/12/x86_64-cros-linux-gnu] ==> [/usr/local/include/c++/12/x86_64-cros-linux-gnu]
+  collapse include dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../include/c++/12/backward] ==> [/usr/local/include/c++/12/backward]
+  collapse include dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include] ==> [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include-fixed] ==> [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include-fixed]
+  implicit include dirs: [/usr/local/include/c++/12;/usr/local/include/c++/12/x86_64-cros-linux-gnu;/usr/local/include/c++/12/backward;/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include;/usr/local/include;/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include-fixed]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/chronos/user/Projects/job_project/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/make -f Makefile cmTC_349ee/fast && /usr/local/bin/make  -f CMakeFiles/cmTC_349ee.dir/build.make CMakeFiles/cmTC_349ee.dir/build]
+  ignore line: [make[1]: Entering directory '/home/chronos/user/Projects/job_project/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/c++   -v -o CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [Target: x86_64-cros-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/usr/local --libdir=/usr/local/lib64 --mandir=/usr/local/share/man --build=x86_64-cros-linux-gnu --host=x86_64-cros-linux-gnu --target=x86_64-cros-linux-gnu --program-prefix= --program-suffix= --disable-bootstrap --disable-install-libiberty --disable-libmpx --disable-libssp --disable-multilib --disable-werror --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-host-shared --enable-lto --enable-plugin --enable-shared --enable-symvers --enable-static --enable-threads=posix --with-gcc-major-version-only --with-gmp --with-isl --with-mpc --with-mpfr --with-pic --with-system-libunwind --with-system-zlib --with-arch-64=x86-64 --with-native-system-header-dir=/usr/local/include --enable-languages=c c++ jit objc fortran --program-suffix=-12]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20221102 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_349ee.dir/']
+  ignore line: [ /usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/cc1plus -quiet -v -D_GNU_SOURCE /usr/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_349ee.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /usr/local/tmp/ccPPGopN.s]
+  ignore line: [GNU C++17 (GCC) version 12.2.1 20221102 (x86_64-cros-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0-p11  MPC version 1.2.1  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../x86_64-cros-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../include/c++/12]
+  ignore line: [ /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../include/c++/12/x86_64-cros-linux-gnu]
+  ignore line: [ /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../include/c++/12/backward]
+  ignore line: [ /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 12.2.1 20221102 (x86_64-cros-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0-p11  MPC version 1.2.1  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 84b8d671da95e5541dd5e61e5edf1cc9]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_349ee.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o /usr/local/tmp/ccPPGopN.s]
+  ignore line: [GNU assembler version 2.39 (x86_64-cros-linux-gnu) using BFD version (Chromebrew) 2.39]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_349ee]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_349ee.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/c++  -v CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_349ee ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/lto-wrapper]
+  ignore line: [Target: x86_64-cros-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/usr/local --libdir=/usr/local/lib64 --mandir=/usr/local/share/man --build=x86_64-cros-linux-gnu --host=x86_64-cros-linux-gnu --target=x86_64-cros-linux-gnu --program-prefix= --program-suffix= --disable-bootstrap --disable-install-libiberty --disable-libmpx --disable-libssp --disable-multilib --disable-werror --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-host-shared --enable-lto --enable-plugin --enable-shared --enable-symvers --enable-static --enable-threads=posix --with-gcc-major-version-only --with-gmp --with-isl --with-mpc --with-mpfr --with-pic --with-system-libunwind --with-system-zlib --with-arch-64=x86-64 --with-native-system-header-dir=/usr/local/include --enable-languages=c c++ jit objc fortran --program-suffix=-12]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20221102 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/:/usr/local/libexec/gcc/x86_64-cros-linux-gnu/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_349ee' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_349ee.']
+  link line: [ /usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/collect2 -plugin /usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/usr/local/tmp/cco7rRQv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_349ee /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/Scrt1.o /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crti.o /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtbeginS.o -L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12 -L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../.. CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtendS.o /usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crtn.o]
+    arg [/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/libexec/gcc/x86_64-cros-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/usr/local/tmp/cco7rRQv.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_349ee] ==> ignore
+    arg [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/Scrt1.o] ==> obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/Scrt1.o]
+    arg [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crti.o] ==> obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crti.o]
+    arg [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtbeginS.o] ==> obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12] ==> dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12]
+    arg [-L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64] ==> dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../..] ==> dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_349ee.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtendS.o] ==> obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtendS.o]
+    arg [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crtn.o] ==> obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crtn.o]
+  collapse obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/Scrt1.o] ==> [/usr/local/lib64/Scrt1.o]
+  collapse obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crti.o] ==> [/usr/local/lib64/crti.o]
+  collapse obj [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64/crtn.o] ==> [/usr/local/lib64/crtn.o]
+  collapse library dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12] ==> [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12]
+  collapse library dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../../../lib64] ==> [/usr/local/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/../../..] ==> [/usr/local/lib64]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/local/lib64/Scrt1.o;/usr/local/lib64/crti.o;/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtbeginS.o;/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12/crtendS.o;/usr/local/lib64/crtn.o]
+  implicit dirs: [/usr/local/lib64/gcc/x86_64-cros-linux-gnu/12;/usr/local/lib64;/lib64;/usr/lib64]
+  implicit fwks: []
+
+

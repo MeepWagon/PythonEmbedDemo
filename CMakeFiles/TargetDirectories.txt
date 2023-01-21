@@ -1,0 +1,3 @@
+/home/chronos/user/Projects/job_project/CMakeFiles/PythonEmbedDemo.dir
+/home/chronos/user/Projects/job_project/CMakeFiles/edit_cache.dir
+/home/chronos/user/Projects/job_project/CMakeFiles/rebuild_cache.dir
