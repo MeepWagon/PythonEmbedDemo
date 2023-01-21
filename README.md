@@ -1,5 +1,5 @@
 # Overview
-Simple program I made using C++, CMake, and Python. Uses embedded python to run a script in the "scripts" folder called "test.py". Python script actually uses gspread so maybe install that with pip if someone else wants to use this.
+Simple program I made using C++, CMake, and Python. Uses the python C library to embed python so I run a script in the "scripts" folder called "test.py".
 
 # Building
 
