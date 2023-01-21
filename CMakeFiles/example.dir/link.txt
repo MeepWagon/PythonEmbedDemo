@@ -1,1 +1,0 @@
-/usr/local/bin/c++ CMakeFiles/example.dir/main.cpp.o -o example  /usr/local/lib64/libpython3.10.so 

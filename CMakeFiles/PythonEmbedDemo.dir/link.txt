@@ -1,1 +1,0 @@
-/usr/local/bin/c++ CMakeFiles/PythonEmbedDemo.dir/src/main.cpp.o -o PythonEmbedDemo  /usr/local/lib64/libpython3.10.so 
