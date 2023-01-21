@@ -1,8 +1,7 @@
 # Overview
-Simple program I made using C++, CMake, and Python. Uses the python C library to embed python so I run a script in the "scripts" folder called "test.py".
+Simple program I made using C++, CMake, and Python. Uses the python C library to embed python which I run a script in the "scripts" folder called "test.py".
 
 # Building
-
 Just type this in to build and run on linux! If you're using windows then I dont know.
 
 ```bash
