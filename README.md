@@ -9,4 +9,4 @@ cmake .
 make && ./PythonEmbedDemo
 ```
 
-I would like to include that im including "python3.10/Python.h" in my main.cpp. I dont know if that changes if you have a different version of python installed, but its something to keep in mind if you dont have python or have a different version installed
+I would like to include that im including "python3.10/Python.h" in my main.cpp. This is probably specific to the version of python you're using, so you probably need to change that line of code if you're using a different version of python (Yes I understand using docker could get around this).
