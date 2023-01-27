@@ -1,6 +1,6 @@
 #include <cstdio>
 #include <iostream>
-#include <python3.10/Python.h>
+#include <Python.h>
 
 int main(int argc, char** argv) {
     setenv("PYTHONPATH","./scripts",1);
