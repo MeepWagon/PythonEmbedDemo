@@ -1,2 +1,2 @@
 def example():
-    return "Worked!!!!"
+    return "Worked!"
